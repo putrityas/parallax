@@ -26,7 +26,7 @@ var puman = new Image();
 var layer_list = [
 {
  'image': sky,
- 'src': 'img/20190713114317.png',
+ 'src': '8A3CF724-212C-45AE-B89B-6E84E60A61FF.png',
  'z_index': -2.25,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -34,7 +34,7 @@ var layer_list = [
 },
 {
  'image': background,
- 'src': 'img/20190713114322.png',
+ 'src': '994B423D-2947-45C6-8F6F-0A7F321450FC.png',
  'z_index': -2.25,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -42,7 +42,7 @@ var layer_list = [
 },
 {
  'image': gunung,
- 'src': 'img/20190713114325.png',
+ 'src': '4E3BF504-4D2C-4A19-8C4E-35F25993AA49.png',
  'z_index': -2,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -50,7 +50,7 @@ var layer_list = [
 },
 {
  'image': clouds,
- 'src': 'img/20190713114335.png',
+ 'src': '3A4927B8-C99C-4E00-8E92-E474FE7D02BE.png',
  'z_index': -1.25,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -58,7 +58,7 @@ var layer_list = [
 },
 {
  'image': cactus,
- 'src': 'img/20190713114330.png',
+ 'src': 'E86836A1-F77C-4265-AA47-DF281062CC69.png',
  'z_index': -0.5,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -66,7 +66,7 @@ var layer_list = [
 },
 {
  'image': puman,
- 'src': 'img/20190713114339.png',
+ 'src': 'B2DF6C3F-9CC0-4EF0-AABD-10F4D026D47D.png',
  'z_index': -1.5,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -74,7 +74,7 @@ var layer_list = [
 },
 {
  'image': leaves,
- 'src': 'img/20190713114344.png',
+ 'src': '9051054A-7A88-4487-BC5B-69FE537C6E9E.png',
  'z_index': 0.8,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -82,7 +82,7 @@ var layer_list = [
 },
 {
  'image': mask,
- 'src': 'img/20190713114357.png',
+ 'src': '004CFA79-43FE-489C-859C-66662AE5C75A.png',
  'z_index': 0,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -90,7 +90,7 @@ var layer_list = [
 },
 {
  'image': birds,
- 'src': 'img/20190713114401.png',
+ 'src': 'FD64D01D-2E0E-480B-9442-8CC13FE04220.png',
  'z_index': 2,
  'position': {x: 0, y: 0},
  'blend': null,
