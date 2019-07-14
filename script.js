@@ -42,7 +42,7 @@ var layer_list = [
 },
 {
  'image': cactus,
- 'src': '7401583E-4DBE-47F5-8FF3-40B89341CBD4.png',
+ 'src': 'A94BF1DC-6C9F-4F18-A91C-70FD46496916.png',
  'z_index': -2,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -58,7 +58,7 @@ var layer_list = [
 },
 {
  'image': puman,
- 'src': 'C27BFFF5-9FAC-426B-8F54-9F7EC30CE39C.png',
+ 'src': '6DE688FD-E7FE-4397-96E1-0B8E7A10DC40.png',
  'z_index': -0.5 ,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -66,7 +66,7 @@ var layer_list = [
 },
 {
  'image': bush,
- 'src': '5CA6BDC6-D3F9-4492-B72C-7022D7FC7D2E.png',
+ 'src': 'EB8F8A6F-1EDC-4E6A-8FF3-36FDBB929DCD.png',
  'z_index': -1.5,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -74,7 +74,7 @@ var layer_list = [
 },
 {
  'image': leaves,
- 'src': '9051054A-7A88-4487-BC5B-69FE537C6E9E.png',
+ 'src': 'DFE67A57-EF26-45C1-A25A-3A3B21D66411.png',
  'z_index': 0.8,
  'position': {x: 0, y: 0},
  'blend': null,
