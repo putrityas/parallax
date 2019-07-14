@@ -120,6 +120,9 @@ function hideLoading(){
 function drawCanvas() {
  //clear whatever in the canvas
  context.clearRect(0, 0, canvas.width, canvas.height);
+ 
+ //update the tween
+ TWEEN.update();
 
   //calculate how much the canvas should rotate
  var rotate_x = (pointer.y * -0.15) + (motion.y * -1.2);
@@ -243,8 +246,8 @@ window.addEventListener('mouseup', function(event) {
 function endGesture() {
   moving = false;
 
-  pointer.x = 0;
-  pointer.y = 0;
+  TWEEN.removeALL();
+  var pointer_tween = new TWEEN.Tween(pointer).to({x: 0, y: 0}, 300).easing(TWEEN.Easing.Back.Out).start();
 }
 
 
