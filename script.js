@@ -12,7 +12,7 @@ var loaded = false;
 var load_counter = 0;
 
 //Initialize images for layers
-var sky = new Image();
+var bush = new Image();
 var background = new Image();
 var gunung = new Image();
 var clouds = new Image();
@@ -25,16 +25,8 @@ var puman = new Image();
 //create a list of layer objects
 var layer_list = [
 {
- 'image': sky,
- 'src': '8A3CF724-212C-45AE-B89B-6E84E60A61FF.png',
- 'z_index': -2.25,
- 'position': {x: 0, y: 0},
- 'blend': null,
- 'opacity': 1
-},
-{
  'image': background,
- 'src': '994B423D-2947-45C6-8F6F-0A7F321450FC.png',
+ 'src': '807E7932-B9DD-4179-9EB1-35499BCAD920.png',
  'z_index': -2.25,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -43,6 +35,14 @@ var layer_list = [
 {
  'image': gunung,
  'src': '4E3BF504-4D2C-4A19-8C4E-35F25993AA49.png',
+ 'z_index': -2.25,
+ 'position': {x: 0, y: 0},
+ 'blend': null,
+ 'opacity': 1
+},
+{
+ 'image': cactus,
+ 'src': '7401583E-4DBE-47F5-8FF3-40B89341CBD4.png',
  'z_index': -2,
  'position': {x: 0, y: 0},
  'blend': null,
@@ -57,16 +57,16 @@ var layer_list = [
  'opacity': 0.8
 },
 {
- 'image': cactus,
- 'src': 'E86836A1-F77C-4265-AA47-DF281062CC69.png',
+ 'image': puman,
+ 'src': 'C27BFFF5-9FAC-426B-8F54-9F7EC30CE39C.png',
  'z_index': -0.5,
  'position': {x: 0, y: 0},
  'blend': null,
  'opacity': 1
 },
 {
- 'image': puman,
- 'src': 'B2DF6C3F-9CC0-4EF0-AABD-10F4D026D47D.png',
+ 'image': bush,
+ 'src': '5CA6BDC6-D3F9-4492-B72C-7022D7FC7D2E.png',
  'z_index': -1.5,
  'position': {x: 0, y: 0},
  'blend': null,
