@@ -59,7 +59,7 @@ var layer_list = [
 {
  'image': puman,
  'src': 'C27BFFF5-9FAC-426B-8F54-9F7EC30CE39C.png',
- 'z_index': -1.5 ,
+ 'z_index': 0.8 ,
  'position': {x: 0, y: 0},
  'blend': null,
  'opacity': 1
@@ -75,7 +75,7 @@ var layer_list = [
 {
  'image': leaves,
  'src': '9051054A-7A88-4487-BC5B-69FE537C6E9E.png',
- 'z_index': -0.5,
+ 'z_index': 1,
  'position': {x: 0, y: 0},
  'blend': null,
  'opacity': 1
